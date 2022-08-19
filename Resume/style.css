@@ -1,0 +1,67 @@
+body{
+    display: block;
+    margin: 0px;
+}
+.right-section {
+    grid-area: 1/1/3/2;
+    grid-column: span1;
+    background-color: #f7f7f7;
+
+}
+.left-section {
+    grid-area: 1/2/3/3;
+    grid-column: span 1/ span 2;
+    background-color: #242531;
+}
+.left-content{
+    padding: 1rem;
+}
+.profile-image{
+    display: block;
+    margin: auto;
+    border: solid white 5px;
+    border-radius: 30%;
+    width: 60%;
+}
+.name{
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0.8rem;
+}
+.designation{
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+}
+.description{
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 1rem;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #a6abad;
+}
+.main-content {
+    min-height: 1000px;
+    width: 90%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-rows: 20% 80%;
+    grid-template-columns: 300px 700px;
+}
+section{
+    display: block;
+}
+
+
+/* Write CSS code below */
